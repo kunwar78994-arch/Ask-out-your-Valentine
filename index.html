@@ -20,6 +20,14 @@
       40% { transform: translateY(-20px); }
       60% { transform: translateY(-10px); }
     }
+    #yesButton {
+  position: relative;
+  z-index: 10; /* keeps it above the NO button */
+}
+#noButton {
+  position: absolute;
+  z-index: 5;
+}
     #noButton {
       position: absolute;
     }
@@ -115,5 +123,6 @@
   </script>
 </body>
 </html>
+
 
 
